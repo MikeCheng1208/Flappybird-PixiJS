@@ -20,6 +20,7 @@ function tubeGroup() {
 
     // tube.addChild(tubeTop_hit);
     // tube.addChild(tubeTop_Button);
+    
     /*-----------------------------------------------*/
 
     tube.addChild(tubeTop);
