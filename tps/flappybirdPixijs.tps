@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.5.0</string>
         <key>fileName</key>
-        <string>/Users/zhiyuan/Desktop/flappybirdPixijs.tps</string>
+        <string>/Users/zhiyuan/Desktop/www/Flappybird-PixiJS/tps/flappybirdPixijs.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -199,8 +199,8 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">www/FlappybirdPixiJS/images/Floor01.jpg</key>
-            <key type="filename">www/FlappybirdPixiJS/images/Floor02.jpg</key>
+            <key type="filename">../images/textures/Floor01.jpg</key>
+            <key type="filename">../images/textures/Floor02.jpg</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -213,7 +213,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/Floor03.jpg</key>
+            <key type="filename">../images/textures/Floor03.jpg</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -226,9 +226,9 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/bird01.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/bird02.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/bird03.png</key>
+            <key type="filename">../images/textures/bird01.png</key>
+            <key type="filename">../images/textures/bird02.png</key>
+            <key type="filename">../images/textures/bird03.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -241,18 +241,18 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/c02.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c04.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c06.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c07.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c09.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c11.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c12.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c14.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c16.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c17.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c19.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c21.png</key>
+            <key type="filename">../images/textures/c02.png</key>
+            <key type="filename">../images/textures/c04.png</key>
+            <key type="filename">../images/textures/c06.png</key>
+            <key type="filename">../images/textures/c07.png</key>
+            <key type="filename">../images/textures/c09.png</key>
+            <key type="filename">../images/textures/c11.png</key>
+            <key type="filename">../images/textures/c12.png</key>
+            <key type="filename">../images/textures/c14.png</key>
+            <key type="filename">../images/textures/c16.png</key>
+            <key type="filename">../images/textures/c17.png</key>
+            <key type="filename">../images/textures/c19.png</key>
+            <key type="filename">../images/textures/c21.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -265,14 +265,14 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/c03.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c05.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c08.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c10.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c13.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c15.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c18.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/c20.png</key>
+            <key type="filename">../images/textures/c03.png</key>
+            <key type="filename">../images/textures/c05.png</key>
+            <key type="filename">../images/textures/c08.png</key>
+            <key type="filename">../images/textures/c10.png</key>
+            <key type="filename">../images/textures/c13.png</key>
+            <key type="filename">../images/textures/c15.png</key>
+            <key type="filename">../images/textures/c18.png</key>
+            <key type="filename">../images/textures/c20.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -285,8 +285,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/g06.png</key>
-            <key type="filename">www/FlappybirdPixiJS/images/g07.png</key>
+            <key type="filename">../images/textures/g06.png</key>
+            <key type="filename">../images/textures/g07.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -299,7 +299,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/gameover.png</key>
+            <key type="filename">../images/textures/gameover.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -312,7 +312,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">www/FlappybirdPixiJS/images/stage.jpg</key>
+            <key type="filename">../images/textures/stage.jpg</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -322,42 +322,56 @@
                 <rect>107,143,215,286</rect>
                 <key>scale9Paddings</key>
                 <rect>107,143,215,286</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../images/textures/start.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>61,52,123,104</rect>
+                <key>scale9Paddings</key>
+                <rect>61,52,123,104</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>www/FlappybirdPixiJS/images/bird01.png</filename>
-            <filename>www/FlappybirdPixiJS/images/bird02.png</filename>
-            <filename>www/FlappybirdPixiJS/images/bird03.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c02.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c03.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c04.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c05.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c06.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c07.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c08.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c09.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c10.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c11.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c12.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c13.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c14.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c15.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c16.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c17.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c18.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c19.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c20.png</filename>
-            <filename>www/FlappybirdPixiJS/images/c21.png</filename>
-            <filename>www/FlappybirdPixiJS/images/Floor01.jpg</filename>
-            <filename>www/FlappybirdPixiJS/images/Floor02.jpg</filename>
-            <filename>www/FlappybirdPixiJS/images/Floor03.jpg</filename>
-            <filename>www/FlappybirdPixiJS/images/g06.png</filename>
-            <filename>www/FlappybirdPixiJS/images/g07.png</filename>
-            <filename>www/FlappybirdPixiJS/images/gameover.png</filename>
-            <filename>www/FlappybirdPixiJS/images/stage.jpg</filename>
+            <filename>../images/textures/bird01.png</filename>
+            <filename>../images/textures/bird02.png</filename>
+            <filename>../images/textures/bird03.png</filename>
+            <filename>../images/textures/c02.png</filename>
+            <filename>../images/textures/c03.png</filename>
+            <filename>../images/textures/c04.png</filename>
+            <filename>../images/textures/c05.png</filename>
+            <filename>../images/textures/c06.png</filename>
+            <filename>../images/textures/c07.png</filename>
+            <filename>../images/textures/c08.png</filename>
+            <filename>../images/textures/c09.png</filename>
+            <filename>../images/textures/c10.png</filename>
+            <filename>../images/textures/c11.png</filename>
+            <filename>../images/textures/c12.png</filename>
+            <filename>../images/textures/c13.png</filename>
+            <filename>../images/textures/c14.png</filename>
+            <filename>../images/textures/c15.png</filename>
+            <filename>../images/textures/c16.png</filename>
+            <filename>../images/textures/c17.png</filename>
+            <filename>../images/textures/c18.png</filename>
+            <filename>../images/textures/c19.png</filename>
+            <filename>../images/textures/c20.png</filename>
+            <filename>../images/textures/c21.png</filename>
+            <filename>../images/textures/Floor01.jpg</filename>
+            <filename>../images/textures/Floor02.jpg</filename>
+            <filename>../images/textures/Floor03.jpg</filename>
+            <filename>../images/textures/g06.png</filename>
+            <filename>../images/textures/g07.png</filename>
+            <filename>../images/textures/gameover.png</filename>
+            <filename>../images/textures/stage.jpg</filename>
+            <filename>../images/textures/start.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

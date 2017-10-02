@@ -5,12 +5,24 @@ function Bird() {
         PIXI.Texture.fromFrame("bird03.png"),
     ];
     AminateMoveClip.call(this, fF, true);
-    app.bird_mc = this;
+    app.bird_mc = this; 
     this.animationSpeed = 0.15;
-    this.x = app.stageW / 2;
+    this.x = app.stageW / 3;
     this.y = app.stageH / 3;
     this.play();
+    this.hit(app.bird_mc);
+    console.log(app.tube1.children[0]);
 }
 Bird.prototype = Object.create(AminateMoveClip.prototype);
+Bird.prototype.hit = function (bird) {
+    app.ticker.add(t => {
+        HitMovieClip(bird, app.floor1);
+        HitMovieClip(bird, app.floor2);
 
+        if (app.hit.hitTestRectangle(bird, app.tube1.children[0].hitArea)){
+            console.log('hit');
+        }
+        // HitMovieClip(bird, app.tube1.parent);
+    })
+}
 
