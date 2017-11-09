@@ -17,7 +17,7 @@ function Tube() {
     app.stage.addChild(tube1);
     app.stage.addChild(tube2);
     app.stage.addChild(tube3);
-    
+
     this.move(tube1, 1.5);
     this.move(tube2, 1.5);
     this.move(tube3, 1.5);
@@ -25,15 +25,16 @@ function Tube() {
     app.tube1 = tube1;
     app.tube2 = tube2;
     app.tube3 = tube3;
+
 }
 Tube.prototype.move = function (mc, speed) {
     app.ticker.add(t => {
         if (!app.gameStart) return;
         if (app.gameOver) return;
         mc.x -= speed;
-        if (mc.x < -mc.width) {
+        if (mc.x < -mc.children[0].width) {
             const t = Math.floor(Math.random() * (3 - 0 + 0) + 0);
-            mc.x = 629 - mc.width;
+            mc.x = app.stageW + 200 - 29 - mc.children[0].width;
             mc.y = this.Hit_Y[t];
         }
     })

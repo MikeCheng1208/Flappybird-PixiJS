@@ -1,13 +1,13 @@
 function touchControl(bird) {
     app.stage.interactive = true;
-    let isStart = false;
+    app.isStart = false;
     let g = 0.3;
     let vy = 0;
     let bounce = -7;
     let isUp = false;
     
     app.ticker.add(t => {
-        if (!isStart) return;
+        if (!app.isStart) return;
         vy += g;
         bird.y += vy;
         if (isUp) {
@@ -17,7 +17,7 @@ function touchControl(bird) {
     })
 
     app.stage.on('pointerdown', () => {
-        isStart = true;
+        app.isStart = true;
         if (isUp) return;
         isUp = true;
         app.gameStart = true;           //遊戲開始
