@@ -11,18 +11,14 @@ function Bird() {
     this.y = app.stageH / 3;
     this.play();
     this.hit(app.bird_mc);
-    console.log(app.tube1.children[0]);
+    
 }
 Bird.prototype = Object.create(AminateMoveClip.prototype);
 Bird.prototype.hit = function (bird) {
     app.ticker.add(t => {
         HitMovieClip(bird, app.floor1);
         HitMovieClip(bird, app.floor2);
-
-        if (app.hit.hitTestRectangle(bird, app.tube1.children[0].hitArea)){
-            console.log('hit');
-        }
-        // HitMovieClip(bird, app.tube1.parent);
+        HitMovieClip(bird, app.tube1.children[0]);
     })
 }
 

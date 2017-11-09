@@ -1,4 +1,5 @@
 function hitTestRectangle(r1, r2) { 
+
     //Define the variables we'll need to calculate
     var hit, combinedHalfWidths, combinedHalfHeights, vx, vy;
 
